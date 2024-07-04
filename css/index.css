@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url(./footer.css);
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    font-family: "Quicksand", sans-serif;
+  }
+
+/* Start Navigation bar styles */
+.journal-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+.journal-left-container {
+    margin: 8px;
+}
+
+.journal-left-container img {
+    max-width: 100px; 
+    height: auto; 
+}
+.journal-sidebar {
+    display: flex;
+    list-style-type: none; 
+    align-items: center;
+    margin: 8px;
+
+}
+
+.journal-sidebar li {
+    margin-right: 15px; 
+}
+
+.journal-sidebar li a {
+    text-decoration: none; 
+    color: black;
+    font-weight: medium;
+
+}
+.journal-right-conatainer{
+    display: flex;
+    margin-right: 10px;
+}
+.profile-img{
+    display: none;
+}
+.exit-img{
+    display: none;
+}
+
+.go-wep-button{
+    padding: 12px 24px;
+    border: 2px solid rgb(249, 199, 79);
+    color: F9C74F; 
+    background-color: transparent; 
+    border-radius: 50px; 
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+}
+.go-wep-button:hover a{
+    color: white;
+}
+.go-wep-button:hover{
+    background-color: rgb(249, 199, 79); 
+}
+
+/* Intro-Img */
+.intro-img{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid lightgray;
+}
+.intro-img img{
+    max-width: 100%; 
+    margin: 5px;
+}
+
+.phone-intro-img{
+    display: none;
+}
+/* Intro-Img */
+
+/* End Navigation bar styles */
+
+/* Start Animal Supporter Section */
+.animal-container p{
+    margin: 8px;
+    font-size: 20px;
+    font-weight: 450;
+}
+
+.sticker-container {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+  
+.cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 50px;
+}
+
+.cell img{
+    width: 200px;
+    height: 200px;
+}
+/* End Animal Supporter Section */
+
+
+/* Start Recent Folder Section */
+#text {
+    margin: 8px;
+    font-size: 20px;
+    font-weight: 450;
+}
+.folder-dots{
+    margin-top: 20px;
+    display: flex;
+    float: right;
+}
+.folder-dot{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(249, 199, 79);
+    border-radius: 50%;
+    margin: 0 5px;
+}
+.recent-foldersec{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px;
+}
+
+  
+.design-box {
+    background-color: rgb(249, 199, 79);
+    padding: 16px 16px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.icon img {
+    width: 117px;
+    height: 114px;
+}
+
+.designh {
+    margin-top: 20px;
+    font-size: 24px;
+    color: white;
+}
+
+.designp {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.dots {
+    margin-top: 20px;
+    display: flex;
+    float: right;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin: 0 5px;
+} 
+
+.noter-sec{
+    background-color: rgb(249, 199, 79);
+}
+.noter-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: rgb(249, 199, 79);
+    box-shadow: 0 0 10px rgba(101, 100, 100, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+/* End Recent Folder Section */
+
+
+/* Start Responsiveness Mobile */
+@media (max-width:900px){
+    /* Start Navigation bar styles */
+    .journal-sidebar {
+        display: none;
+    }
+    .journal-right-container{
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+    }
+    .profile-img{
+        display: inline-flex;
+    }
+    .profile-img img{
+        width: 60px;
+    }
+    .exit-img{
+        display: inline-flex;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+    }
+    .exit-img img{
+        width: 40px;
+    }
+
+    .intro-img img{
+        display: none;
+    }
+    .phone-intro-img{
+        display: inline-flex;
+        border-bottom: 1px solid lightgray;
+    }
+    .phone-intro-img img{
+        width: 100%; 
+        margin: 5px;
+    }
+    /* End Navigation bar styles */
+
+    /* Start Animal Supporter Section */
+    .sticker-container {
+        display:grid;
+        grid-template-columns: 200px 200px;
+        grid-column-gap: 5px;
+        grid-row-gap: 5px;
+    }
+    .cell{
+        margin: 0;
+    }
+
+    .recent-foldersec{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); 
+        gap: 10px;
+    }
+    /* End Animal Supporter Section */
+
+}
+/* End Responsiveness Mobile */
+
+  
+ 
+  

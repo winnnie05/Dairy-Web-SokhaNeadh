@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url(./footer.css);
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    font-family: "Quicksand", sans-serif;
+  }
+
+/* Start Login Section */
+
+/*  body */
+.wrapper {
+    width: 100%;
+    height: 60%;
+  }
+  
+  .insider-wrapper {
+    height: 100%;
+    width: 28.75rem;
+    margin: 0 auto;
+  }
+  
+  /* image wrapper */
+  .img-wrapper {
+    width: 100%;
+    height: 6.25rem;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 150px;
+  }
+  
+  .img-wrapper a:nth-of-type(1) {
+    margin-right: 10px;
+  }
+  
+  .img-wrapper a {
+    margin: auto 0;
+  }
+  
+  .insider-wrapper h1 {
+    width: 100%;
+    font-size: calc(2rem - 4px);
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .cambodia {
+    width: 100%;
+    height: 18.56rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cambodia p {
+    opacity: 0.85;
+  }
+  
+  #text-cam1{
+    margin-bottom: 16px;
+  }
+  #text-cam2 {
+    margin-left: 4px;
+  }
+  
+  .cam-change{
+    font-size: 16px;
+  }
+  .cam-change a{
+    color: grey;
+  }
+  
+  
+  /* Email */
+  .form-floating {
+    margin-bottom: 20px;
+  }
+  
+  .form-floating input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid rgb(249, 199, 79);
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  .text-wrapper .term {
+    width: 100%;
+    height: 4rem;
+  }
+  
+  .text-wrapper{
+    margin: 0;
+  }
+  
+  .text-wrapper a{
+    color: rgb(249, 199, 79);
+    margin: 0;
+  }
+  
+  
+  
+/* Submit Button */
+  button[type="submit"] {
+    padding: 12px 24px;
+    border: 2px solid rgb(249, 199, 79);
+    background-color: transparent; 
+    border-radius: 50px; 
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+    font-size: 15px;
+    margin-left: 350px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color:  rgb(249, 199, 79);
+    color: white;
+  }
+  /* End Login Section */
+
+  /* Responsiveness */
+  @media (max-width:900px){
+    .wrapper {
+      /* margin: 10px; */
+    }
+  }

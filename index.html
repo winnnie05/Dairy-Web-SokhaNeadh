@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journal</title>
+    <link rel="shortcut icon" href="./assets/img/Journal-Logo-no-letter.png">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"> <!-- link for symbol for the Journal Notetaker -->
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/sticky.css">
+</head>
+<body>
+    <!-- Start NavBar Injection-->
+    <nav id="journaltime-navbar" class="journal-navbar">
+    </nav>
+     <!-- End NavBar Injection-->
+
+    <!-- Intro-Img -->
+    <div class="intro-img">
+        <img src="./assets/img/intro-img.png" alt="desktop-img">
+    </div>
+    <div class="phone-intro-img">
+        <img src="./assets/img/phone_img_into.png" alt="phone-img">
+    </div>
+
+
+    <!-- Start Animal Supporter Section -->
+    <div class="animal-container">
+        <p>Animal Supporter :</p>
+        <div id="animal-sticker" class="sticker-container">
+            <!-- Animal Supporter Section grid injection -->
+        </div>
+    </div>
+    <!-- End Animal Supporter Section -->
+
+    <!-- Start Recent Folder Section -->
+    <div class="folder-section">
+        <p id="text">Recent Folder</p>
+        <div id="folder-section-file" class="recent-foldersec">
+            <!-- Folder injection section -->
+        </div>
+    </div>
+    <!-- End Recent Folder Section -->
+
+    <!-- Start Journal Notetaker -->
+    <div id="sticky-note'">
+        <div class="sticky-notesec">
+          <p>My Journal:</p>
+          <div class="popup-box">
+            <div class="popup">
+              <div class="content">
+                <header>
+                  <p></p>
+                  <i class="uil uil-times"></i>
+                </header>
+                <form action="#">
+                  <div class="row title">
+                    <label>Title</label>
+                    <input type="text" spellcheck="false">
+                  </div>
+                  <div class="row description">
+                    <label>Description</label>
+                    <textarea spellcheck="false"></textarea>
+                  </div>
+                  <button></button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="wrapper">
+            <li class="add-box">
+              <div class="icon"><i class="uil uil-plus"></i></div>
+              <p>Create a new journal Notes</p>
+            </li>
+          </div>
+        </div>
+      </div>
+    <!-- End Journal Notetaker -->
+
+
+    <!-- Start Footer -->
+    <div id="footer-sec">
+        <!-- injection footer section -->
+    </div>
+    <!-- End Footer -->
+
+
+
+</body>
+<script src="./js/footer_injection.js"></script>
+<script src="./js/folder-section-injection.js"></script>
+<script src="./js/navbar_injection.js"></script>
+<script src="./js/introimg_injection.js"></script>
+<script src="./js/sticky.js"></script>
+</html>

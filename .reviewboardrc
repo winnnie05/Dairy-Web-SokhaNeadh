@@ -1,0 +1,5 @@
+REVIEWBOARD_URL = "https://review.clp.kr/"
+REPOSITORY = "AlphaBeez/Rith-Sokhaneadh/Diary-Web"
+REPOSITORY_TYPE = "git"
+BRANCH = "develop"
+LAND_DEST_BRANCH = "develop"

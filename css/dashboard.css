@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    font-family: "Quicksand", sans-serif;
+}
+
+/* Start Left Sidebar */
+.fa-2x {
+    font-size: 2em;
+}
+
+/* Style for Font Awesome icons */
+.fa {
+    position: relative;
+    display: table-cell;
+    width: 60px;
+    height: 36px;
+    text-align: center;
+    vertical-align: middle;
+}
+/* Styles for main menu */
+.main-menu:hover,nav.main-menu.expanded {
+    width:250px;
+    overflow:visible;
+}
+
+.main-menu {
+    border-right:1px solid #e5e5e5;
+    height: 100%;
+    width:60px;
+    overflow:hidden;
+    position: absolute;
+    top: 102px;
+    background-color: white;
+}
+
+.main-menu .sidebar {
+    margin:7px 0;
+}
+
+.main-menu li {
+    position:relative;
+    width:250px;
+}
+
+.main-menu li a {
+    position:relative;
+    display:table;
+    border-collapse:collapse;
+    border-spacing:0;
+    color: rgb(249, 199, 79);
+    font-size: 18px;
+    text-decoration:none;
+}
+
+.main-menu li a :hover{
+    color: rgb(249, 199, 79);
+}
+
+
+.main-menu .nav-icon {
+    position:relative;
+    display:table-cell;
+    width:60px;
+    height:36px;
+    text-align:center;
+    vertical-align:middle;
+    font-size:18px;
+}
+
+.main-menu .nav-text {
+    position:relative;
+    display:table-cell;
+    vertical-align:middle;
+    width:190px;
+}
+.nav-text{
+    color: black;
+    font-weight: 500;
+}
+/* Styles for logout section */
+.main-menu>ul.logout {
+    position:absolute;
+    left:0;
+    bottom:0;
+}
+/* Styles for home page content */
+.home-page {
+    margin-left: 70px;
+  }
+.home-page h1{
+    text-align: justify;
+    margin: 10px 0px;
+}
+.home-page p{
+    font-weight: 500;
+    font-size: 18px;
+    color: grey;
+}
+/* End Left Sidebar */
+
+/* Start Recent Folder Section */
+.folder-section{
+    margin-top: 50px;
+    margin-left: 60px;
+}
+/* End Recent Folder Section */
+
+
+/* Start Journal Notetaker */
+.sticky-notesec{
+    margin-top: 10px;
+    margin-left: 60px;
+}
+/* End Journal Notetaker */
+
+/* Start Footer */
+.container{
+    background-color: white;
+    position: relative;
+}
+/* End Footer */
+@media (max-width:900px){
+    /* Start Left Sidebar */
+    .main-menu {
+        border-right:1px solid #e5e5e5;
+        height: 250%;
+        width:60px;
+        overflow:hidden;
+        position: absolute;
+        top: 102px;
+        background-color: white;
+    }
+    /* End Left Sidebar */
+}

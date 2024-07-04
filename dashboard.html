@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DashBoard</title>
+    <link rel="shortcut icon" href="./assets/img/Journal-Logo-no-letter.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"> <!-- link for symbol for the Journal Notetaker -->
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/sticky.css">
+    <link rel="stylesheet" href="./css/dashboard.css">
+</head>
+<body>
+
+
+    <!-- Start NavBar Injection-->
+    <nav id="journaltime-navbar" class="journal-navbar">
+    </nav>
+    <!-- End NavBar Injection-->
+
+
+    <!-- Start Introduction -->
+    <div class="home-page">
+        <h1>Hello, SokhaNeadh</h1>
+        <p>How it's going?</p>
+    </div>
+    <!-- Start Introduction -->
+
+    <!-- Start Recent Folder Section -->
+    <div class="folder-section">
+        <p id="text">Recent Folder</p>
+        <div id="folder-section-dash-file" class="recent-foldersec">
+            <!-- Folder injection section -->
+        </div>
+    </div>
+    <!-- End Recent Folder Section -->
+
+    <!-- Start Journal Notetaker -->
+    <div id="sticky-note'">
+        <div class="sticky-notesec">
+            <p>My Journal:</p>
+            <div class="popup-box">
+            <div class="popup">
+                <div class="content">
+                <header>
+                    <p></p>
+                    <i class="uil uil-times"></i>
+                </header>
+                <form action="#">
+                    <div class="row title">
+                    <label>Title</label>
+                    <input type="text" spellcheck="false">
+                    </div>
+                    <div class="row description">
+                    <label>Description</label>
+                    <textarea spellcheck="false"></textarea>
+                    </div>
+                    <button></button>
+                </form>
+                </div>
+            </div>
+            </div>
+            <div class="wrapper">
+            <li class="add-box">
+                <div class="icon"><i class="uil uil-plus"></i></div>
+                <p>Create a new journal Notes</p>
+            </li>
+            </div>
+        </div>
+        </div>
+     <!-- End Journal Notetaker -->
+
+    <!-- Start Left Sidebar -->
+    <div class="area"></div>
+    <nav class="main-menu">
+        <ul class="sidebar">
+            <li class="has-subnav">
+                <a href="./dashboard.html">
+                    <i class="fa fa-home fa-2x"></i>
+                    <span class="nav-text">
+                        Home
+                    </span>
+                </a>
+            <li>
+
+            <li class="has-subnav">
+                <a href="#">
+                    <i class="fa fa-sticky-note fa-2x"></i>
+                    <span class="nav-text">
+                        Note
+                    </span>
+                </a>
+            <li>
+
+            <li class="has-subnav">
+                <a href="#">
+                    <i class="fa fa-calendar fa-2x"></i>
+                    <span class="nav-text">
+                        Calender
+                    </span>
+                </a>
+            <li>
+        </ul>
+    </nav>
+    <!-- End Left Sidebar -->
+
+
+    <!-- Start Footer -->
+    <div id="footer-sec">
+        <!-- injection footer section -->
+    </div>
+    <!-- End Footer -->
+   
+
+
+
+
+</body>
+<script src="./js/footer_injection.js"></script>
+<script src="./js/folder-section-dash-injection copy.js"></script>
+<script src="./js/navbar_injection.js"></script>
+<script src="./js/introimg_injection.js"></script>
+<script src="./js/sticky.js"></script>
+</html>

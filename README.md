@@ -1,10 +1,11 @@
 # Journal Time
 Welcome to Journal Time!! My Journal is a simple and intuitive journaling application designed to help you record your thoughts, your feelings, and experiences effortlessly.
 
-Project Repository : [https://git.clp.kr/anbschool/2nd/alphabeez/rith-sokhaneadh/diary-website-sokhaneadh]
-Project Name : Dairy Web SokhaNeadh<br>
-Project Owner : Rith SokhaNeadh
-Project Server : GitLab
+Project Repository :  [https://git.clp.kr/anbschool/2nd/alphabeez/rith-sokhaneadh/diary-website-sokhaneadh] <br>
+Project Name : Dairy Web SokhaNeadh <br>
+Project Owner : Rith SokhaNeadh <br>
+Project Server : GitLab <br>
+Link Website : 
 
 ## Description 
 

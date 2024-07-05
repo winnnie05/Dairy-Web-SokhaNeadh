@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
-@import url(./footer.css);
 * {
     margin: 0px;
     padding: 0;
@@ -19,6 +18,7 @@
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid lightgray;
+    width: 100%;
 }
 .journal-left-container {
     margin: 8px;
@@ -125,6 +125,12 @@
     font-size: 20px;
     font-weight: 450;
 }
+.folder-section{
+    margin-left: 8px;
+
+    margin-right: 8px;
+}
+
 .folder-dots{
     margin-top: 20px;
     display: flex;
@@ -199,6 +205,10 @@
   }
 /* End Recent Folder Section */
 
+.sticky-notesec{
+        margin-left: 8px;
+    margin-right: 8px;
+}
 
 /* Start Responsiveness Mobile */
 @media (max-width:900px){

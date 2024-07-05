@@ -254,6 +254,8 @@ form button{
   border-radius: 4px;
   background: rgb(249, 199, 79);
 }
+
+/* Responsivess */
 @media (max-width: 660px){
   .wrapper{
     margin: 15px;

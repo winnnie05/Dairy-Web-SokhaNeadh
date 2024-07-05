@@ -243,12 +243,17 @@
     /* Start Animal Supporter Section */
     .sticker-container {
         display:grid;
-        grid-template-columns: 200px 200px;
+        grid-template-columns: repeat(2, 2fr);
         grid-column-gap: 5px;
         grid-row-gap: 5px;
     }
     .cell{
         margin: 0;
+    }
+
+    .cell img{
+        width: 100%;
+        margin: 5px;
     }
 
     .recent-foldersec{

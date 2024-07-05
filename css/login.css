@@ -27,7 +27,7 @@
     margin: 0 auto;
   }
   
-  /* image wrapper */
+  /* start image wrapper */
   .img-wrapper {
     width: 100%;
     height: 6.25rem;
@@ -52,33 +52,19 @@
     margin-bottom: 20px;
   }
   
-  .cambodia {
+  .email-container{
     width: 100%;
     height: 18.56rem;
     display: flex;
     flex-direction: column;
   }
   
-  .cambodia p {
+  .email-container p {
     opacity: 0.85;
   }
+   /* End image wrapper */
   
-  #text-cam1{
-    margin-bottom: 16px;
-  }
-  #text-cam2 {
-    margin-left: 4px;
-  }
-  
-  .cam-change{
-    font-size: 16px;
-  }
-  .cam-change a{
-    color: grey;
-  }
-  
-  
-  /* Email */
+  /* Start Email */
   .form-floating {
     margin-bottom: 20px;
   }
@@ -105,6 +91,7 @@
     color: rgb(249, 199, 79);
     margin: 0;
   }
+  /* End Email */
   
   
   
@@ -128,7 +115,30 @@
 
   /* Responsiveness */
   @media (max-width:900px){
-    .wrapper {
-      /* margin: 10px; */
+    .insider-wrapper {
+      height: 100%;
+      width: 100%;
+      margin: 5px;
     }
+
+    .form-floating input {
+      width: 97%;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid rgb(249, 199, 79);
+      border-radius: 8px;
+      padding: 20px;
+    }  
+
+    button[type="submit"] {
+      padding: 12px 24px;
+      border: 2px solid rgb(249, 199, 79);
+      background-color: transparent; 
+      border-radius: 50px; 
+      cursor: pointer; 
+      transition: all 0.3s ease; 
+      font-size: 15px;
+      margin-left: 260px;
+    }
+    
   }
